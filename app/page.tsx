@@ -4,9 +4,9 @@ import { HiPencil } from "react-icons/hi2";
 
 import ProgressBar from "@ramonak/react-progress-bar";
 import { FaHome } from "react-icons/fa";
-import { MdOutlineAddHomeWork } from "react-icons/md";
+import { CiBoxes } from "react-icons/ci";
 import Image from 'next/image';
-
+import { BiMinus } from "react-icons/bi";
 const page = () => {
   const data = [
     { name: "Michael Brown", email: "michael.brown@gmail.com", percentage: 82 },
@@ -19,15 +19,20 @@ const page = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row h-screen bg-gray-100">
-        <div className="md:w-1/6 bg-gray-100 p-2">
-          <div className="my-8 flex">
-            <MdOutlineAddHomeWork className='mx-2 text-[18px]' />
+        <div className="md:w-1/6 bg-gray-100 p-2 md:ml-8 md:mr-8">
+          <div className="my-6 flex">
+            <CiBoxes className='mx-2 text-[18px]' />
             <p className="text-sm font-semibold">Hi, AltWorld</p>
+
           </div>
+
           <div className="my-8 flex">
+
+
             <FaHome color='#4fd1c5' className='mx-2' />
             <span className="text-sm font-semibold">Dashboard</span>
           </div>
+
           <div className="my-8 bg-teal-400 text-white p-2 rounded-xl">
             <div className="mb-2">
               <p className='bg-white text-gray-700 w-8 rounded-xl flex justify-center font-semibold text-[14px]'>+</p>
@@ -42,7 +47,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="md:w-2/6 bg-gray-100 p-2">
+        <div className="md:w-2/6 bg-gray-100 p-2 mt-1">
           <div className='my-2'>
             <span className='text-gray-500'>Pages <span className='text-black'>/Assignment</span></span>
             <h3 className='font-semibold my-1'>sales BDE</h3>
@@ -116,7 +121,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-3/6 flex mt-10 rounded-md">
+        <div className="md:w-4/6 h-4/5 flex mt-20 md:mr-8 rounded-md bg-[#E1DDD3]">
           <div className='w-1/2 flex flex-col bg-white p-2 rounded-md'>
             <div className='flex justify-between'>
               <div className='flex' >
@@ -136,11 +141,12 @@ const page = () => {
                 <span className='text-xs mt-1 text-gray-500'>Communication</span>
                 <span className='text-xs mt-1 text-gray-500'>Situation handling</span>
               </div>
-              <div className='w-2/3'>
-                <ProgressBar completed={80} className='w-32 mt-4 ' height='6px' bgColor='#4fd1c5' />
-                <ProgressBar completed={70} className='w-32 mt-2 ' height='6px' bgColor='#4fd1c5' />
-                <ProgressBar completed={60} className='w-32 mt-2 ' height='6px' bgColor='yellow' />
+              <div className='w-full md:w-2/3'>
+                <ProgressBar completed={80} className='w-full md:w-32 mt-4' height='10px' bgColor='#2EB44E' />
+                <ProgressBar completed={70} className='w-full md:w-32 mt-2' height='10px' bgColor='#2EB44E' />
+                <ProgressBar completed={60} className='w-full md:w-32 mt-2' height='10px' bgColor='#EBAA28' />
               </div>
+
 
             </div>
             <div>
@@ -173,7 +179,24 @@ const page = () => {
               </button>
             </div>
           </div>
-          
+          <div className='w-1/2 b-2px-solid-red pb-2 mb-5 pt-10'>
+            <div className='p-0 h-full mt-4'>
+              <div className="h-full">
+                <h1 className='absolute mt-72 ml-20 text-black'>Tell me about yourself</h1>
+                <h1 className='absolute mt-80 ml-28 text-black'>Question 1/11</h1>
+
+                <video className="h-full w-full object-cover" autoPlay>
+                  <source src="/introduction.mp4" type="video/mp4" />
+                </video>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+
         </div>
       </div>
     </div>
