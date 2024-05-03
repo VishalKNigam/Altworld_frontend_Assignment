@@ -1,11 +1,9 @@
 # Project Name
-
 - Altworld_frontend_Assignment
 
 Brief description or overview of the project.
 
 ## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployed Link](#deployed)
@@ -23,7 +21,6 @@ Brief description or overview of the project.
 2. Open the project in your web browser.
 
 ## Deployed Link <a name="deployed">
-
 - [Deployed Link](https://vishal-altworld.vercel.app/)
 
 ## Tech Stack <a name="tech-stack">
@@ -42,15 +39,3 @@ Brief description or overview of the project.
 - Play introduction videos for candidates
 
 ### Thanks for giving your valuable time!
-
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-</script>
