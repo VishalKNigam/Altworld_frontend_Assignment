@@ -49,7 +49,7 @@ const page = () => {
 
         <div className="md:w-2/6 bg-gray-100 p-2 mt-1">
           <div className='my-2'>
-            <span className='text-gray-500'>Pages <span className='text-black'>/Assignment</span></span>
+            <span className='text-gray-400'>Pages <span className='text-black'>/Assignment</span></span>
             <h3 className='font-semibold my-1'>sales BDE</h3>
           </div>
           <div className='bg-white p-2 rounded-lg'>
@@ -71,7 +71,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className='my-4'>
+            <div className='my-1'>
               <button className='mr-2 shadow-md p-1 px-2 rounded-lg font-semibold text-[10px]'>
                 TO REVIEW
               </button>
@@ -87,13 +87,13 @@ const page = () => {
                   <Image src={"/profile.jpg"} alt="alt" width={30} height={30} className='mr-2 rounded-lg' />
                   <div className='flex flex-col'>
                     <h3 className='font-[400] text-[12px]'>
-                      Sourav singh
+                      Sourav
                     </h3>
                     <p className='text-[10px] text-gray-500'>sourrav@gmail.com</p>
                   </div>
                 </div>
                 <div className='flex justify-end text-right w-full align-middle'>
-                  <h2 className='text-green-500 font-semibold flex mt-1 '>
+                  <h2 className='text-green-500 font-semibold'>
                     78%
                   </h2>
                 </div>
@@ -127,65 +127,63 @@ const page = () => {
               <div className='flex' >
                 <Image src={"/profile.jpg"} alt='alt' width={50} height={40} className='rounded-md mr-2' />
                 <div className='flex flex-col mx-1'>
-                  <h3 className='font-bold text-[14px]'>
-                    Sourav Singh
+                  <h3 className='font-bold md:text-[14px] text-[10px]'>
+                    Sourav
                   </h3>
-                  <p className='text-xs text-gray-500 font-[350]'>saurav@gmail.com</p>
+                  <p className='text-[10px] lg:text-[14px] md:text-[12px] text-gray-500 font-[350] '>saurav@gmail.com</p>
                 </div>
               </div>
-              <h1 className='text-[#4fd1c5] text-base font-bold'>78%</h1>
+              <h1 className='text-[#4fd1c5] text-[12px] md:text-[15px] lg:text-[15px] font-bold bg-center'>78%</h1>
             </div>
             <div className='flex'>
               <div className='w-1/2 flex flex-col'>
-                <span className='text-xs mt-3 text-gray-500'>Behavioural</span>
-                <span className='text-xs mt-1 text-gray-500'>Communication</span>
-                <span className='text-xs mt-1 text-gray-500'>Situation handling</span>
+                <span className='text-[12px] mt-3 text-gray-500'>Behavioural</span>
+                <span className='text-[12px] mt-1 text-gray-500'>Communication</span>
+                <span className='text-[12px] mt-1 text-gray-500'>Situation handling</span>
               </div>
               <div className='w-full md:w-2/3'>
-                <ProgressBar completed={80} className='w-full md:w-32 mt-4' height='10px' bgColor='#2EB44E' />
-                <ProgressBar completed={70} className='w-full md:w-32 mt-2' height='10px' bgColor='#2EB44E' />
-                <ProgressBar completed={60} className='w-full md:w-32 mt-2' height='10px' bgColor='#EBAA28' />
+                <ProgressBar completed={80} className='w-full mt-4' height='14px' bgColor='#2EB44E' />
+                <ProgressBar completed={70} className='w-full mt-2' height='14px' bgColor='#2EB44E' />
+                <ProgressBar completed={60} className='w-full mt-2' height='14px' bgColor='#EBAA28' />
               </div>
 
 
             </div>
             <div>
-              <h2 className='font-bold mt-3 mb-1 text-[12px]'>
+              <h2 className='font-bold mt-1 mb-1 text-[12px] lg:text-[15px] lg:mt-2'>
                 About
               </h2>
-              <p className='text-xs text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
+              <p className='text-[8px] lg:text-[10px] text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
             </div>
             <div>
-              <h2 className='font-bold mt-3 mb-1 text-[12px]'>
+              <h2 className='font-bold mt-1 mb-1 text-[12px] lg:text-[15px] lg:mt-2'>
                 Experience
               </h2>
-              <p className='text-xs text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
+              <p className='text-[8px] lg:text-[10px] text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
             </div>
             <div>
-              <h2 className='font-bold mt-3 mb-1 text-[12px]'>
+              <h2 className='font-bold mt-1 mb-1 text-[12px] lg:text-[15px] lg:mt-2'>
                 Hobbies
               </h2>
-              <p className='text-xs text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
+              <p className='text-[8px] lg:text-[10px] text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
             </div>
             <div>
-              <h2 className='font-bold mt-3 mb-1 text-[12px]'>
+              <h2 className='font-bold mt-1 mb-1 text-[12px] lg:text-[15px] lg:mt-2'>
                 Introduction
               </h2>
-              <p className='text-xs text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
+              <p className='text-[8px] lg:text-[10px] text-gray-600'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore ad voluptas debitis et saepe odit.</p>
             </div>
             <div className='flex justify-center mt-3'>
-              <button className='bg-teal-400 text-white rounded-md py-1 text-xs font-semibold w-32 h-6'>
+              <button className='bg-teal-400 text-white rounded-md md:py-1 text-xs font-semibold lg:w-40 md:w-25 w-20 md:h-6 h-4'>
                 SHORTLIST
               </button>
             </div>
           </div>
           <div className='w-1/2 b-2px-solid-red pb-2 mb-5 pt-10'>
             <div className='p-0 h-full mt-4'>
-              <div className="h-full">
-                <h1 className='absolute mt-72 ml-20 text-black'>Tell me about yourself</h1>
-                <h1 className='absolute mt-80 ml-28 text-black'>Question 1/11</h1>
-
-                <video className="h-full w-full object-cover" autoPlay>
+              <div className="h-full pb-14">
+                <video className="h-full w-full" controls
+                poster='https://t4.ftcdn.net/jpg/04/55/59/35/240_F_455593519_78slhuHpZADgxSF3FBUFxJoPVEp3QWLu.jpg'>
                   <source src="/introduction.mp4" type="video/mp4" />
                 </video>
 
